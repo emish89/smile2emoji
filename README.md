@@ -3,7 +3,7 @@
 [![dependencies Status](https://david-dm.org/emish89/smile2emoji/status.svg)](https://david-dm.org/emish89/smile2emoji)
 [![devDependencies Status](https://david-dm.org/emish89/smile2emoji/dev-status.svg)](https://david-dm.org/emish89/smile2emoji?type=dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-TODO
+
 
 **Convert all the smiley to fantastic emoticons!** ✨
 
