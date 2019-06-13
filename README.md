@@ -3,7 +3,7 @@
 [![dependencies Status](https://david-dm.org/emish89/smile2emoji/status.svg)](https://david-dm.org/emish89/smile2emoji)
 [![devDependencies Status](https://david-dm.org/emish89/smile2emoji/dev-status.svg)](https://david-dm.org/emish89/smile2emoji?type=dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/8bdab2e8ea80f30811bd/maintainability)](https://codeclimate.com/github/emish89/smile2emoji/maintainability)
 
 **Convert all the smiley to fantastic emoticons!** ✨
 
