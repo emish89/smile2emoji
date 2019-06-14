@@ -1,4 +1,5 @@
 # Smile2Emoji NPM Module
+[![npm version](https://badge.fury.io/js/smile2emoji.svg)](https://badge.fury.io/js/smile2emoji)
 [![Build Status](https://travis-ci.org/emish89/smile2emoji.svg?branch=master)](https://travis-ci.org/emish89/smile2emoji) 
 [![dependencies Status](https://david-dm.org/emish89/smile2emoji/status.svg)](https://david-dm.org/emish89/smile2emoji)
 [![devDependencies Status](https://david-dm.org/emish89/smile2emoji/dev-status.svg)](https://david-dm.org/emish89/smile2emoji?type=dev)
