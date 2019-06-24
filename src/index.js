@@ -140,7 +140,7 @@ export const emojiMap = {
 export const checkText = (text) => {
   const words = text && text.split(' ');
   const newText = [];
-  words.forEach((word) => {
+  words && words.forEach(word => {
     let w = word;
     if (word in emojiMap) {
       w = emojiMap[word];
