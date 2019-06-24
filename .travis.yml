@@ -8,3 +8,7 @@ script:
 branches:
   only:
     - master
+install:
+  - npm install -g codecov
+script:
+  - codecov
