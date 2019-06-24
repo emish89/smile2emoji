@@ -140,12 +140,14 @@ export const emojiMap = {
 export const checkText = (text) => {
   const words = text && text.split(' ');
   const newText = [];
-  words && words.forEach(word => {
-    let w = word;
-    if (word in emojiMap) {
-      w = emojiMap[word];
-    }
-    newText.push(w);
-  });
+  if (words) {
+    words.forEach((word) => {
+      let w = word;
+      if (word in emojiMap) {
+        w = emojiMap[word];
+      }
+      newText.push(w);
+    });
+  }
   return newText.join(' ');
 };
