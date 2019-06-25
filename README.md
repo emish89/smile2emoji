@@ -1,7 +1,7 @@
 # Smile2Emoji NPM Module
+[![npm version](https://badge.fury.io/js/smile2emoji.svg)](https://badge.fury.io/js/smile2emoji)
 [![Build Status](https://travis-ci.org/emish89/smile2emoji.svg?branch=master)](https://travis-ci.org/emish89/smile2emoji) 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Femish89%2Fsmile2emoji.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Femish89%2Fsmile2emoji?ref=badge_shield)
-[![npm version](https://badge.fury.io/js/smile2emoji.svg)](https://badge.fury.io/js/smile2emoji)
 [![dependencies Status](https://david-dm.org/emish89/smile2emoji/status.svg)](https://david-dm.org/emish89/smile2emoji)
 [![devDependencies Status](https://david-dm.org/emish89/smile2emoji/dev-status.svg)](https://david-dm.org/emish89/smile2emoji?type=dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -16,10 +16,48 @@ Ideal for input, chats and so on, where you don't want an emoji picker but a sim
 Happy usage =)
 
 # Installation
-TODO 
+
+```
+npm i smile2emoji
+```
 
 # Usage
-TODO
+
+Right now, there are 2 simple ways to use it.
+
+
+With the function to get the data from the map:
+
+```
+import { checkText } from 'smile2emoji'
+
+...
+
+const text = checkText(':)');
+console.log(text) //prints '😊'
+
+//OR 
+
+const text = checkText('i like bananas :)');
+console.log(text) //prints 'i like bananas 😊'
+
+```
+
+
+
+Or from the map:
+```
+import { emojiMap } from 'smile2emoji'
+
+...
+
+const text = ':)';
+const emoji = emojiMap[text];
+console.log(emoji) //prints '😊'
+
+```
+
+
 
 # License
 
