@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export const emojiMap = {
   'o/': '👋',
   '</3': '💔',
@@ -136,7 +137,6 @@ export const emojiMap = {
   '>;)': '😈',
   '>_>^': '😤',
   '^^': '😊',
-  ":'(": '😢',
   ':sweat': '😅'
 };
 
