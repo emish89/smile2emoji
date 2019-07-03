@@ -13,6 +13,8 @@ deploy:
   email: "emish89@yahoo.it"
   api_key: "$NPM_TOKEN"
   skip_cleanup: true
+  on:
+    tags: true
 install:
   - npm install -g codecov
 script:
