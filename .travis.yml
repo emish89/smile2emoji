@@ -8,15 +8,14 @@ script:
 branches:
   only:
     - master
-before_install:
-  - npm i -g makeshift && makeshift -s @bcoe -r registry.npmjs.org    
 install:
   - npm install -g codecov
 script:
   - codecov
 deploy:
   provider: npm
-  email: emish89@yahoo.it
-  api_key: $NPM_TOKEN
+  email: "emish89@yahoo.it"
+  api_key: "$NPM_TOKEN"
+  skip_cleanup: true
   on:
     tags: true
