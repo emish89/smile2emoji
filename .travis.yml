@@ -12,3 +12,9 @@ install:
   - npm install -g codecov
 script:
   - codecov
+deploy:
+  provider: npm
+  email: "emish89@yahoo.it"
+  api_key: "771bb089-ebe0-4838-9d9c-c91ec2454317"
+  on:
+    tags: true
