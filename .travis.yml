@@ -8,14 +8,14 @@ script:
 branches:
   only:
     - master
-install:
-  - npm install -g codecov
-script:
-  - codecov
 deploy:
   provider: npm
   email: "emish89@yahoo.it"
   api_key: "$NPM_TOKEN"
   skip_cleanup: true
   on:
-    tags: true
+    tags: true    
+install:
+  - npm install -g codecov
+script:
+  - codecov
