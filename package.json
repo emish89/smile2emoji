@@ -13,7 +13,8 @@
     "cover": "nyc --check-coverage npm run test:only",
     "lint": "eslint src test",
     "build": "cross-env BABEL_ENV=production babel src --out-dir lib",
-    "prepare": "npm run clean && npm run lint && npm run test && npm run build"
+    "prepare": "npm run clean && npm run lint && npm run test && npm run build",
+    "publish": "npm publish"
   },
   "files": [
     "lib",
@@ -49,7 +50,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-minify": "^0.5.1",
     "chai": "^4.2.0",
-    "cross-env": "^7.0.2",
+    "cross-env": "^5.2.0",
     "eslint": "^7.11.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.1",
