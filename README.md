@@ -7,6 +7,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8bdab2e8ea80f30811bd/maintainability)](https://codeclimate.com/github/emish89/smile2emoji/maintainability)
 
+![smile2emoji](https://socialify.git.ci/emish89/smile2emoji/image?font=Raleway&forks=1&language=1&owner=1&stargazers=1&theme=Dark)
+
 **Convert all the smiley to fantastic emoticons!** ✨
 
 With this simple and little module you can convert the smiles in your text to emoji.
