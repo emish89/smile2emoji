@@ -15,6 +15,9 @@ With this simple and little module you can convert the smiles in your text to em
 :) or :D or <3 will become emoticons!
 Ideal for input, chats and so on, where you don't want an emoji picker but a simpler solution.
 
+Very quick test usage: 
+https://codepen.io/emish89/pen/YzGrvVK
+
 Happy usage =)
 
 # Installation
