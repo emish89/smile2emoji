@@ -1,6 +1,6 @@
 {
   "name": "smile2emoji",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Plugin to convert from text smile to emoticons. Emoji from punctuation",
   "main": "./lib/index.js",
   "scripts": {
@@ -49,14 +49,14 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-minify": "^0.5.1",
-    "chai": "^4.3.3",
+    "chai": "^4.3.4",
     "cross-env": "^7.0.3",
-    "eslint": "^7.21.0",
+    "eslint": "^7.22.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0",
-    "mocha": "^8.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "mocha": "^8.3.2",
     "nyc": "^15.1.0",
     "rimraf": "^3.0.2"
   }
