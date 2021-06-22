@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import { emojiMap, checkText } from '../src';
+import { emojiMap, checkText } from '../src/index.ts';
 
 describe('test package functions', () => {
   it('should test emoji map', () => {
