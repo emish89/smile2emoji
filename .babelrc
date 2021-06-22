@@ -1,23 +1,12 @@
 {
   "env": {
     "development": {
-      "presets": [
-        "@babel/preset-env",
-        "@babel/preset-typescript"
-      ],
-      "plugins": [
-        "add-module-exports"
-      ]
+      "presets": ["@babel/preset-env", "@babel/preset-typescript"],
+      "plugins": ["add-module-exports"]
     },
     "production": {
-      "presets": [
-        "@babel/preset-env",
-        "@babel/preset-typescript",
-         "minify"
-      ],
-      "plugins": [
-        "add-module-exports"
-      ]
+      "presets": ["@babel/preset-env", "@babel/preset-typescript", "minify"],
+      "plugins": ["add-module-exports"]
     }
   }
 }

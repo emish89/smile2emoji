@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-export const emojiMap: {[key: string]: string} = {
+export const emojiMap: { [key: string]: string } = {
   'o/': '👋',
   '</3': '💔',
   '<3': '💗',
@@ -14,8 +14,8 @@ export const emojiMap: {[key: string]: string} = {
   XD: '😁',
   'x-D': '😁',
   xD: '😁',
-  ':\')': '😂',
-  ':\'-)': '😂',
+  ":')": '😂',
+  ":'-)": '😂',
   ':-))': '😃',
   '8)': '😄',
   ':)': '😊',
@@ -83,8 +83,8 @@ export const emojiMap: {[key: string]: string} = {
   ':L': '😡',
   ':S': '😡',
   ':\\': '😡',
-  ':\'(': '😢',
-  ':\'-(': '😢',
+  ":'(": '😢',
+  ":'-(": '😢',
   '^5': '😤',
   '^<_<': '😤',
   'o/\\o': '😤',
@@ -93,7 +93,7 @@ export const emojiMap: {[key: string]: string} = {
   ':###..': '😰',
   ':#': '😅',
   ':-###..': '😰',
-  'D-\':': '😱',
+  "D-':": '😱',
   D8: '😱',
   'D:': '😱',
   'D:<': '😱',
@@ -970,11 +970,11 @@ export const emojiMap: {[key: string]: string} = {
   ':link:': '🔗',
   ':curly_loop:': '➰',
   ':wavy_dash:': '〰️',
-  ':part_alternation_mark:': '〽️'
+  ':part_alternation_mark:': '〽️',
 };
 export const checkText = (text: string) => {
   const words = text && text.split(' ');
-  const newText:string[] = [];
+  const newText: string[] = [];
   if (words) {
     words.forEach((word) => {
       let w = word;
