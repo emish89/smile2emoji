@@ -1,6 +1,6 @@
 {
   "name": "smile2emoji",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plugin to convert from text smile to emoticons. Emoji from punctuation",
   "main": "./lib/index.js",
   "types": ".lib/index.d.ts",
