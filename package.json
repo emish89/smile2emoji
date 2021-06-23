@@ -3,7 +3,11 @@
   "version": "1.1.0",
   "description": "Plugin to convert from text smile to emoticons. Emoji from punctuation",
   "main": "./lib/index.js",
+  "module": "./lib/index.js",
   "types": ".lib/index.d.ts",
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
@@ -20,10 +24,6 @@
     "prepare": "npm run clean && npm run lint && npm run test && npm run build",
     "publish": "npm publish"
   },
-  "files": [
-    "lib",
-    "src"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/emish89/smile2emoji"
