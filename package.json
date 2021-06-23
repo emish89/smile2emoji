@@ -21,7 +21,7 @@
     "cover": "nyc --check-coverage npm run test:only",
     "lint": "eslint src test",
     "build:types": "tsc --emitDeclarationOnly",
-    "build": "npm run build:types && cross-env BABEL_ENV=production babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir lib --extensions \".ts,.tsx\"",
     "prepare": "npm run clean && npm run lint && npm run test && npm run build"
   },
   "repository": {
