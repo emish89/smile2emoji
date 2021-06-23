@@ -4,9 +4,10 @@
   "description": "Plugin to convert from text smile to emoticons. Emoji from punctuation",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
-  "types": ".lib/index.d.ts",
+  "types": "index.d.ts",
   "files": [
-    "lib/"
+    "lib/",
+    "index.d.ts"
   ],
   "scripts": {
     "type-check": "tsc --noEmit",
