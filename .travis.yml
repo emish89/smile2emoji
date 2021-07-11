@@ -1,7 +1,7 @@
 language: node_js
 node_js:
+  - '16'
   - '8'
-  - '6'
 script:
   - npm run test
   - npm run build
