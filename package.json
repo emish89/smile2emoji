@@ -26,8 +26,7 @@
     "lint": "eslint src test",
     "build:types": "tsc --emitDeclarationOnly",
     "build": "cross-env BABEL_ENV=production babel src --out-dir lib --extensions \".ts,.tsx\"",
-    "prepare": "npm run clean && npm run lint && npm run test && npm run build",
-    "release": "cross-env NPM_TOKEN=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 GH_TOKEN=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 semantic-release --no-ci"
+    "prepare": "npm run clean && npm run lint && npm run test && npm run build"
   },
   "repository": {
     "type": "git",
