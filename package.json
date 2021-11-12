@@ -5,6 +5,10 @@
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "types": "index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
   "files": [
     "lib/",
     "index.d.ts"
