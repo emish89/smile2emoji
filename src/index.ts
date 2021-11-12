@@ -972,6 +972,7 @@ export const emojiMap: { [key: string]: string } = {
   ':wavy_dash:': '〰️',
   ':part_alternation_mark:': '〽️',
 };
+
 export const checkText = (text: string) => {
   const words = text && text.split(' ');
   const newText: string[] = [];
