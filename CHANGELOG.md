@@ -1,3 +1,15 @@
+## [2.1.0](https://github.com/emish89/smile2emoji/compare/v2.0.0...v2.1.0) (2021-11-12)
+
+
+### Bug Fixes :bug:
+
+* **gh-actions:** readded ci in install step ([56baeaf](https://github.com/emish89/smile2emoji/commit/56baeaf329fc9ba390cb4fb79a5d4e8db7a832a5))
+
+
+### Features :sparkles:
+
+* **dep:** package lock updated ([14060cb](https://github.com/emish89/smile2emoji/commit/14060cb1b1fef3c7fb4b1aa05170bc9b7b800ecc))
+
 ## [2.0.0](https://github.com/emish89/smile2emoji/compare/v1.0.0...v2.0.0) (2021-11-12)
 
 
