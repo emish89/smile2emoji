@@ -1,3 +1,11 @@
+## [2.2.0](https://github.com/emish89/smile2emoji/compare/v2.1.0...v2.2.0) (2021-12-08)
+
+
+### Features :sparkles:
+
+* **eslint:** changed eslint parser to not deprecated babel one ([f8754b7](https://github.com/emish89/smile2emoji/commit/f8754b7470771b6a91ffef6ea4773808a0776b11))
+* **update-dep:** package updated ([76d15d3](https://github.com/emish89/smile2emoji/commit/76d15d3bdc87d32b0cd1a7d304f4ddf6a7d91763))
+
 ## [2.1.0](https://github.com/emish89/smile2emoji/compare/v2.0.0...v2.1.0) (2021-11-12)
 
 
