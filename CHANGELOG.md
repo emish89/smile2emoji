@@ -1,3 +1,10 @@
+## [2.3.0](https://github.com/emish89/smile2emoji/compare/v2.2.0...v2.3.0) (2021-12-16)
+
+
+### Features :sparkles:
+
+* **update-dep:** package updated ([5754ab9](https://github.com/emish89/smile2emoji/commit/5754ab9f9df8df103e6bc7fd5e12bc7dd746ee52))
+
 ## [2.2.0](https://github.com/emish89/smile2emoji/compare/v2.1.0...v2.2.0) (2021-12-08)
 
 
