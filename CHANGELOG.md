@@ -1,3 +1,10 @@
+### [2.5.1](https://github.com/emish89/smile2emoji/compare/v2.5.0...v2.5.1) (2022-01-17)
+
+
+### Documentation :memo:
+
+* **readme:** removed wrong links on readme ([723ad00](https://github.com/emish89/smile2emoji/commit/723ad007efe1e8b15926014932f894bff099cf74))
+
 ## [2.5.0](https://github.com/emish89/smile2emoji/compare/v2.4.0...v2.5.0) (2022-01-16)
 
 
