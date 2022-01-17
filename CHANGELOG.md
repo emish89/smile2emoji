@@ -1,3 +1,10 @@
+### [2.5.2](https://github.com/emish89/smile2emoji/compare/v2.5.1...v2.5.2) (2022-01-17)
+
+
+### Documentation :memo:
+
+* **readme:** removed build badge from travis ci ([f9de8e5](https://github.com/emish89/smile2emoji/commit/f9de8e524d9728f8917daf59a33e5d1d01d29c52))
+
 ### [2.5.1](https://github.com/emish89/smile2emoji/compare/v2.5.0...v2.5.1) (2022-01-17)
 
 
