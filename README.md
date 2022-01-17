@@ -1,6 +1,5 @@
 # Smile2Emoji NPM Module
 [![npm version](https://badge.fury.io/js/smile2emoji.svg)](https://badge.fury.io/js/smile2emoji)
-[![Build Status](https://travis-ci.org/emish89/smile2emoji.svg?branch=master)](https://travis-ci.org/emish89/smile2emoji) 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Femish89%2Fsmile2emoji.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Femish89%2Fsmile2emoji?ref=badge_shield)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8bdab2e8ea80f30811bd/maintainability)](https://codeclimate.com/github/emish89/smile2emoji/maintainability)
