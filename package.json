@@ -76,7 +76,7 @@
     "eslint-plugin-react": "7.29.4",
     "mocha": "9.2.2",
     "nyc": "15.1.0",
-    "prettier": "2.6.1",
+    "prettier": "2.6.2",
     "rimraf": "3.0.2",
     "typescript": "4.6.3"
   }
