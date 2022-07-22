@@ -27,6 +27,8 @@
         "no-restricted-globals": "off",
         "no-undef": "off",
         "no-unused-vars": "off",
+        "implicit-arrow-linebreak": "off",
+        "import/prefer-default-export": "off",
         "@typescript-eslint/no-unused-vars": "warn",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/no-use-before-define": "off",
