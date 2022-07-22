@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/emish89/smile2emoji/compare/v2.9.0...v3.0.0) (2022-07-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **unicode-autocomplete:** changed some element in the map and added autocomplete in functions, when only one element start with a string
+
+### Features :sparkles:
+
+* **unicode-autocomplete:** unicode map + autocomplete ([dc14064](https://github.com/emish89/smile2emoji/commit/dc14064ba6d08f0fd7f45e42cdebe5a15f43e0dc))
+
 ## [2.9.0](https://github.com/emish89/smile2emoji/compare/v2.8.0...v2.9.0) (2022-06-07)
 
 
