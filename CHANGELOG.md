@@ -1,3 +1,15 @@
+## [3.1.0](https://github.com/emish89/smile2emoji/compare/v3.0.0...v3.1.0) (2022-07-25)
+
+
+### Features :sparkles:
+
+* **index.d.ts:** add exported functions ([2df5f80](https://github.com/emish89/smile2emoji/commit/2df5f80d6fe429ddb5d2db5b56bad6e8983851aa))
+
+
+### Documentation :memo:
+
+* **readme:** add some todo in readme ([0e52fcc](https://github.com/emish89/smile2emoji/commit/0e52fcc64325dab5ebaa6e2dd7fa52b4defc34e1))
+
 ## [3.0.0](https://github.com/emish89/smile2emoji/compare/v2.9.0...v3.0.0) (2022-07-22)
 
 
