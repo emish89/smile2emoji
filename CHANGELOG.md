@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/emish89/smile2emoji/compare/v3.1.0...v3.1.1) (2022-07-28)
+
+
+### Documentation :memo:
+
+* **readme:** updated readme with new funcs docs ([31b9656](https://github.com/emish89/smile2emoji/commit/31b9656b28218bafc2dc67f1eff2e4ca15cd886d))
+
 ## [3.1.0](https://github.com/emish89/smile2emoji/compare/v3.0.0...v3.1.0) (2022-07-25)
 
 
