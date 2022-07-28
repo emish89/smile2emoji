@@ -1,3 +1,4 @@
+
 # Smile2Emoji NPM Module
 
 [![npm version](https://badge.fury.io/js/smile2emoji.svg)](https://badge.fury.io/js/smile2emoji)
@@ -26,12 +27,15 @@ npm i smile2emoji
 
 # Usage
 
-TODO new usage with unicode and autocomplete
+Objects exported by the package:
 
-Right now, there are 2 simple ways to use it.
 
-With the function to get the data from the map:
 
+## FUNCTIONS EXPORTED
+
+**checkText(text: string): string**
+Function to check if in the string parameter there is some emoji and in case convert it. 
+Example:
 ```
 import { checkText } from 'smile2emoji'
 
@@ -45,15 +49,65 @@ console.log(text) //prints '😊'
 const text = checkText('i like bananas :)');
 console.log(text) //prints 'i like bananas 😊'
 
-//OR
-const text = checkTextWithAutoSuggestionsAndUnicodet(':)');
-console.log(text) //prints '😊'
+```
 
+**checkTextWithAutoSuggestions(text: string): string**
+Same as before but with autosuggestion, so if there is only one emoji key in the map starting with the string, it use it.
+```
+import { checkTextWithAutoSuggestions } from 'smile2emoji'
+
+...
+
+const text = checkTextWithAutoSuggestions(':tenn');
+console.log(text) //prints '🎾'
+
+//OR
+
+const text = checkTextWithAutoSuggestions('i like bananas :tenn');
+console.log(text) //prints 'i like bananas 🎾'
 
 ```
 
-Or from the map:
+**checkTextWithAutoSuggestionsAndUnicode(text: string): string**
+Same function but it use the map with unicode char instead of emoji,  same results:
+```
+import { checkTextWithAutoSuggestionsAndUnicode } from 'smile2emoji'
 
+...
+
+const text = checkTextWithAutoSuggestionsAndUnicode(':tenn');
+console.log(text) //prints '🎾'
+
+//OR
+
+const text = checkTextWithAutoSuggestionsAndUnicode('i like bananas :tenn');
+console.log(text) //prints 'i like bananas 🎾'
+
+```
+
+**fromUnicodeToEmoji(text: string): string**
+Used by the function above, it convert an unicode string to emoji. 
+Example usage:
+```
+import { fromUnicodeToEmoji } from 'smile2emoji'
+
+const text = fromUnicodeToEmoji('2615');
+console.log(text) //prints '☕'
+
+```
+
+
+
+
+## **MAPS EXPORTED**:
+
+**emojiMap: { [key: string]: string }**
+In this map is exported a pair of key-value  string -emoji , like ':)' -> 😊
+
+**mapStringToUnicode: { [key: string]: string }**
+In this map is exported a pair of key-value  string -unicode of the emoji , like ': coffee:' -> '2615'
+
+Example usage: 
 ```
 import { emojiMap } from 'smile2emoji'
 
@@ -64,7 +118,6 @@ const emoji = emojiMap[text];
 console.log(emoji) //prints '😊'
 
 ```
-
 # License
 
 MIT © Federico Ballarini
