@@ -2050,13 +2050,30 @@ export const mapStringToUnicode: { [key: string]: string } = {
   ':woman-kiss-woman:': '1f469-200d-2764-fe0f-200d-1f48b-200d-1f469',
 };
 
+const objectPrototypesFunctions = new Set([
+  '__defineGetter__',
+  '__defineSetter__',
+  '__lookupGetter__',
+  '__lookupSetter__',
+  '__proto__',
+  'constructor',
+  'hasOwnProperty',
+  'isPrototypeOf',
+  'propertyIsEnumerable',
+  'toLocaleString',
+  'toString',
+  'valueOf',
+]);
+
 export const checkText = (text: string) => {
   const words = text && text.split(' ');
   const newText: string[] = [];
   if (words) {
     words.forEach((word) => {
       let w = word;
-      if (word in emojiMap) {
+      if (word in objectPrototypesFunctions) {
+        w = word;
+      } else if (word in emojiMap) {
         w = emojiMap[word];
       }
       newText.push(w);
@@ -2074,7 +2091,9 @@ export const checkTextWithAutoSuggestions = (text: string) => {
   if (words) {
     words.forEach((word) => {
       let w = word;
-      if (word in emojiMap) {
+      if (word in objectPrototypesFunctions) {
+        w = word;
+      } else if (word in emojiMap) {
         w = emojiMap[word];
       } else {
         const emojiArray = keysStartingWith(emojiMap, word);
@@ -2096,7 +2115,9 @@ export const checkTextWithAutoSuggestionsAndUnicode = (text: string) => {
   if (words) {
     words.forEach((word) => {
       let w = word;
-      if (word in mapStringToUnicode) {
+      if (word in objectPrototypesFunctions) {
+        w = word;
+      } else if (word in mapStringToUnicode) {
         w = fromUnicodeToEmoji(mapStringToUnicode[word]);
       } else {
         const emojiArray = keysStartingWith(mapStringToUnicode, word);

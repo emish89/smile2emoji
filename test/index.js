@@ -1,7 +1,10 @@
 import { assert } from 'chai';
 import {
-  emojiMap, checkText, checkTextWithAutoSuggestions,
-  fromUnicodeToEmoji, checkTextWithAutoSuggestionsAndUnicode
+  emojiMap,
+  checkText,
+  checkTextWithAutoSuggestions,
+  fromUnicodeToEmoji,
+  checkTextWithAutoSuggestionsAndUnicode,
 } from '../src/index.ts';
 
 describe('test package functions', () => {
@@ -15,9 +18,19 @@ describe('test package functions', () => {
     assert(checkText('ciao o/') === expectedVal, 'invalid value :(');
   });
 
+  it('should test checkText avoid reserved keyword', () => {
+    const expectedVal = 'constructor';
+    assert(checkText('constructor') === expectedVal, 'invalid value :(');
+  });
+
   it('should test autosuggestion function - working case', () => {
     const expectedVal = 'ciao 😐';
     assert(checkTextWithAutoSuggestions('ciao :neu') === expectedVal, 'invalid value :(');
+  });
+
+  it('should test autosuggestion function and avoid reserved keyword', () => {
+    const expectedVal = 'constructor';
+    assert(checkTextWithAutoSuggestions('constructor') === expectedVal, 'invalid value :(');
   });
 
   it('should test autosuggestion function - not working case', () => {
@@ -35,9 +48,17 @@ describe('test package functions', () => {
     assert(fromUnicodeToEmoji('1f47f') === expectedVal, 'invalid value :(');
   });
 
+  it('should test checkTextWithAutoSuggestionsAndUnicode and avoid reserved keyword', () => {
+    const expectedVal = 'constructor';
+    assert(checkTextWithAutoSuggestionsAndUnicode('constructor') === expectedVal, 'invalid value :(');
+  });
+
   it('should test checkTextWithAutoSuggestionsAndUnicode function', () => {
     const expectedVal = 'ciao 🐱 :cat 🐈 ciao :sweat';
-    assert(checkTextWithAutoSuggestionsAndUnicode('ciao :cat: :cat :cat2: ciao :sweat') === expectedVal, 'invalid value :(');
+    assert(
+      checkTextWithAutoSuggestionsAndUnicode('ciao :cat: :cat :cat2: ciao :sweat') === expectedVal,
+      'invalid value :(',
+    );
   });
 
   it('should test checkTextWithAutoSuggestionsAndUnicode function - working case', () => {
