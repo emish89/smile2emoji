@@ -1,3 +1,10 @@
+## [3.6.1](https://github.com/emish89/smile2emoji/compare/v3.6.0...v3.6.1) (2023-03-09)
+
+
+### Bug Fixes :bug:
+
+* **checkText:** fix object prototypes reserved function names ([f4f89f3](https://github.com/emish89/smile2emoji/commit/f4f89f3c27836be491f8486ed57d218d958e7592))
+
 ## [3.6.0](https://github.com/emish89/smile2emoji/compare/v3.5.0...v3.6.0) (2023-01-18)
 
 
