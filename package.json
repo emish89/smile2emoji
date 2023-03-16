@@ -1,6 +1,6 @@
 {
   "name": "smile2emoji",
-  "version": "3.6.1",
+  "version": "3.6.2",
   "description": "Plugin to convert from text smile to emoticons. Emoji from punctuation",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
@@ -63,7 +63,6 @@
     "@semantic-release/npm": "9.0.2",
     "@typescript-eslint/eslint-plugin": "5.55.0",
     "@typescript-eslint/parser": "5.55.0",
-    "@babel/eslint-parser": "7.21.3",
     "babel-plugin-add-module-exports": "1.0.4",
     "babel-preset-minify": "0.5.2",
     "chai": "4.3.7",
