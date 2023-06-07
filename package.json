@@ -57,18 +57,18 @@
     "@babel/preset-typescript": "7.21.5",
     "@babel/register": "7.21.0",
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/commit-analyzer": "10.0.1",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "8.1.0",
+    "@semantic-release/github": "9.0.2",
     "@semantic-release/npm": "10.0.3",
-    "@typescript-eslint/eslint-plugin": "5.59.8",
-    "@typescript-eslint/parser": "5.59.8",
+    "@typescript-eslint/eslint-plugin": "5.59.9",
+    "@typescript-eslint/parser": "5.59.9",
     "babel-plugin-add-module-exports": "1.0.4",
     "babel-preset-minify": "0.5.2",
     "chai": "4.3.7",
-    "conventional-changelog-conventionalcommits": "5.0.0",
+    "conventional-changelog-conventionalcommits": "6.0.0",
     "cross-env": "7.0.3",
-    "eslint": "8.41.0",
+    "eslint": "8.42.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsx-a11y": "6.7.1",
@@ -77,6 +77,6 @@
     "nyc": "15.1.0",
     "prettier": "2.8.8",
     "rimraf": "5.0.1",
-    "typescript": "5.0.4"
+    "typescript": "5.1.3"
   }
 }
