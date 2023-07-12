@@ -1,3 +1,10 @@
+## [3.8.1](https://github.com/emish89/smile2emoji/compare/v3.8.0...v3.8.1) (2023-07-12)
+
+
+### Bug Fixes :bug:
+
+* **deps:** package updated + release ([d469593](https://github.com/emish89/smile2emoji/commit/d469593ee90d07ba45dfc401a2a512717b5e60b9))
+
 ## [3.8.0](https://github.com/emish89/smile2emoji/compare/v3.7.0...v3.8.0) (2023-05-30)
 
 
