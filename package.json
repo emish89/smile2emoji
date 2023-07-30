@@ -72,7 +72,7 @@
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsx-a11y": "6.7.1",
-    "eslint-plugin-react": "7.33.0",
+    "eslint-plugin-react": "7.33.1",
     "mocha": "10.2.0",
     "nyc": "15.1.0",
     "prettier": "3.0.0",
