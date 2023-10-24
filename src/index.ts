@@ -2086,7 +2086,7 @@ export const keysStartingWith = (obj: { [key: string]: string }, start: string) 
   Object.keys(obj).filter((key) => key.startsWith(start));
 
 export const checkTextWithAutoSuggestions = (text: string) => {
-  const words = text && text.split(' ');
+  const words = text && text.trimStart().split(' ');
   const newText: string[] = [];
   if (words) {
     words.forEach((word) => {
@@ -2110,7 +2110,7 @@ export const checkTextWithAutoSuggestions = (text: string) => {
 export const fromUnicodeToEmoji = (text: string) => String.fromCodePoint(parseInt(text, 16));
 
 export const checkTextWithAutoSuggestionsAndUnicode = (text: string) => {
-  const words = text && text.split(' ');
+  const words = text && text.trimStart().split(' ');
   const newText: string[] = [];
   if (words) {
     words.forEach((word) => {
