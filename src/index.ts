@@ -2066,7 +2066,7 @@ const objectPrototypesFunctions = new Set([
 ]);
 
 export const checkText = (text: string) => {
-  const words = text && text.split(' ');
+  const words = text && text.trimStart().split(' ');
   const newText: string[] = [];
   if (words) {
     words.forEach((word) => {

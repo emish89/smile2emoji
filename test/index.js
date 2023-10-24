@@ -23,6 +23,16 @@ describe('test package functions', () => {
     assert(checkText('constructor') === expectedVal, 'invalid value :(');
   });
 
+  it('should test checkText with initial new line', () => {
+    const expectedVal = '😊';
+    assert(checkText('\n:)') === expectedVal, 'invalid value :(');
+  });
+
+  it('should test checkText with middle new line and no smiles', () => {
+    const expectedVal = 'ciao\nciao';
+    assert(checkText(expectedVal) === expectedVal, 'invalid value :(');
+  });
+
   it('should test autosuggestion function - working case', () => {
     const expectedVal = 'ciao 😐';
     assert(checkTextWithAutoSuggestions('ciao :neu') === expectedVal, 'invalid value :(');
