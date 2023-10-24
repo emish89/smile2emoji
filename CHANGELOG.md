@@ -1,3 +1,11 @@
+## [3.8.4](https://github.com/emish89/smile2emoji/compare/v3.8.3...v3.8.4) (2023-10-24)
+
+
+### Bug Fixes :bug:
+
+* **eslint:** removed react from eslint config ([b847522](https://github.com/emish89/smile2emoji/commit/b8475226bd803d5ab0dd492b59c2465ac5866185))
+* **new-line:** added trimStart and some new tests ([e51c7fa](https://github.com/emish89/smile2emoji/commit/e51c7fa149621085988dd0af614526c3fc22b65c))
+
 ## [3.8.3](https://github.com/emish89/smile2emoji/compare/v3.8.2...v3.8.3) (2023-09-17)
 
 
