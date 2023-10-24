@@ -1,3 +1,10 @@
+## [3.8.5](https://github.com/emish89/smile2emoji/compare/v3.8.4...v3.8.5) (2023-10-24)
+
+
+### Bug Fixes :bug:
+
+* **new-line:** add newline fix even to other methods ([de48ea8](https://github.com/emish89/smile2emoji/commit/de48ea89e4f6e04610e1f3ad39af0aff675c1fa8))
+
 ## [3.8.4](https://github.com/emish89/smile2emoji/compare/v3.8.3...v3.8.4) (2023-10-24)
 
 
