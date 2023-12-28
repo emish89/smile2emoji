@@ -1,3 +1,15 @@
+## [3.9.0](https://github.com/emish89/smile2emoji/compare/v3.8.6...v3.9.0) (2023-12-28)
+
+
+### Features :sparkles:
+
+* **commonjs:** now the project is common js - chai 5 works ([5877fb9](https://github.com/emish89/smile2emoji/commit/5877fb9f22e57e1e23edff3dfa0d8371b21e2694))
+
+
+### Bug Fixes :bug:
+
+* **release-config:** changed from .js to .cjs ([e273898](https://github.com/emish89/smile2emoji/commit/e273898a75945d2b1af4e10d60b0415940caa863))
+
 ## [3.8.6](https://github.com/emish89/smile2emoji/compare/v3.8.5...v3.8.6) (2023-12-15)
 
 
