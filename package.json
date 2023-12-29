@@ -53,9 +53,9 @@
   "devDependencies": {
     "@babel/cli": "7.23.4",
     "@babel/eslint-parser": "7.23.3",
-    "@babel/preset-env": "7.23.6",
+    "@babel/preset-env": "7.23.7",
     "@babel/preset-typescript": "7.23.3",
-    "@babel/register": "7.22.15",
+    "@babel/register": "7.23.7",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "11.1.0",
     "@semantic-release/git": "10.0.1",
