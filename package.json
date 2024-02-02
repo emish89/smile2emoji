@@ -2,8 +2,12 @@
   "name": "smile2emoji",
   "version": "3.9.1",
   "description": "Plugin to convert from text smile to emoticons. Emoji from punctuation",
-  "main": "./lib/index.cjs",
-  "module": "./lib/index.cjs",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "exports": {
+    "import": "./lib/index.js",
+    "require": "./lib/index.cjs"
+  },
   "types": "index.d.ts",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -25,7 +29,7 @@
     "cover": "nyc --check-coverage npm run test:only",
     "lint": "eslint src test",
     "build:types": "tsc --emitDeclarationOnly",
-    "build": "cross-env BABEL_ENV=production babel src --out-file lib/index.cjs --extensions \".ts,.tsx\"",
+    "build": "tsc && babel src --out-file lib/index.cjs --extensions \".ts,.tsx\"",
     "prepare": "npm run clean && npm run lint && npm run test && npm run build"
   },
   "repository": {
