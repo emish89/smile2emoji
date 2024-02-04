@@ -1,3 +1,10 @@
+## [3.10.0](https://github.com/emish89/smile2emoji/compare/v3.9.1...v3.10.0) (2024-02-04)
+
+
+### Features :sparkles:
+
+* **release:** package updated + produce esm output ([e668669](https://github.com/emish89/smile2emoji/commit/e668669876c953597f39ac88e059a7da87e1cd38))
+
 ## [3.9.1](https://github.com/emish89/smile2emoji/compare/v3.9.0...v3.9.1) (2024-01-31)
 
 
