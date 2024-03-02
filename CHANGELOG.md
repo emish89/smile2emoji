@@ -1,3 +1,10 @@
+## [3.11.0](https://github.com/emish89/smile2emoji/compare/v3.10.0...v3.11.0) (2024-03-02)
+
+
+### Features :sparkles:
+
+* **jsr:** added comments, jsr, package updates, workflow to publish ([95b0e2b](https://github.com/emish89/smile2emoji/commit/95b0e2b942d434313bcdca8692b05281172843ae))
+
 ## [3.10.0](https://github.com/emish89/smile2emoji/compare/v3.9.1...v3.10.0) (2024-02-04)
 
 
