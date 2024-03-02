@@ -1,3 +1,12 @@
+/**
+ * With this simple and little module you can convert the smiles in your text to emoji.
+ *
+ * @module
+ */
+
+/**
+ * A map of text to their emoji representation.
+ */
 export const emojiMap: { [key: string]: string } = {
   'o/': '👋',
   '</3': '💔',
@@ -971,6 +980,9 @@ export const emojiMap: { [key: string]: string } = {
   ':part_alternation_mark:': '〽️',
 };
 
+/**
+ * A map of unicode characters to their string representation.
+ */
 export const mapStringToUnicode: { [key: string]: string } = {
   ':100:': '1f4af',
   ':1234:': '1f522',
@@ -2050,7 +2062,10 @@ export const mapStringToUnicode: { [key: string]: string } = {
   ':woman-kiss-woman:': '1f469-200d-2764-fe0f-200d-1f48b-200d-1f469',
 };
 
-const objectPrototypesFunctions = new Set([
+/**
+ * Set of the functions that are in the prototype of the object and not to convert
+ */
+const objectPrototypesFunctions: Set<string> = new Set([
   '__defineGetter__',
   '__defineSetter__',
   '__lookupGetter__',
@@ -2065,7 +2080,14 @@ const objectPrototypesFunctions = new Set([
   'valueOf',
 ]);
 
-export const checkText = (text: string) => {
+/**
+ *
+ * Function to check if in the string parameter there is some emoji and in case convert it.
+ *
+ * @param text
+ * @returns the text with the emojis converted
+ */
+export const checkText = (text: string): string => {
   const words = text && text.trimStart().split(' ');
   const newText: string[] = [];
   if (words) {
@@ -2082,10 +2104,26 @@ export const checkText = (text: string) => {
   return newText.join(' ');
 };
 
-export const keysStartingWith = (obj: { [key: string]: string }, start: string) =>
+/**
+ *
+ * function to get the keys of an object that starts with a specific string
+ *
+ * @param obj
+ * @param start
+ * @returns string array
+ */
+export const keysStartingWith = (obj: { [key: string]: string }, start: string): string[] =>
   Object.keys(obj).filter((key) => key.startsWith(start));
 
-export const checkTextWithAutoSuggestions = (text: string) => {
+/**
+ *
+ * Function to check if in the string parameter there is some emoji but
+ * with autosuggestion, so if there is only one emoji key in the map starting with the string, it use it.
+ *
+ * @param text
+ * @returns the text with the emojis converted
+ */
+export const checkTextWithAutoSuggestions = (text: string): string => {
   const words = text && text.trimStart().split(' ');
   const newText: string[] = [];
   if (words) {
@@ -2107,9 +2145,25 @@ export const checkTextWithAutoSuggestions = (text: string) => {
   return newText.join(' ');
 };
 
-export const fromUnicodeToEmoji = (text: string) => String.fromCodePoint(parseInt(text, 16));
+/**
+ *
+ * Function to convert a unicode string to an emoji
+ *
+ * @param text
+ * @returns string emoji
+ */
+export const fromUnicodeToEmoji = (text: string): string => String.fromCodePoint(parseInt(text, 16));
 
-export const checkTextWithAutoSuggestionsAndUnicode = (text: string) => {
+/**
+ *
+ * Function to check if in the string parameter there is some emoji but
+ * it use the map with unicode char instead of emoji,
+ * so if there is only one emoji key in the map starting with the string, it use it.
+ *
+ * @param text
+ * @returns the text with the emojis converted
+ */
+export const checkTextWithAutoSuggestionsAndUnicode = (text: string): string => {
   const words = text && text.trimStart().split(' ');
   const newText: string[] = [];
   if (words) {

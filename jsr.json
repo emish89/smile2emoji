@@ -1,0 +1,5 @@
+{
+  "name": "@emish89/smile2emoji",
+  "version": "3.11.0",
+  "exports": "./src/index.ts"
+}
