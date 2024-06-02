@@ -1,3 +1,9 @@
+## [3.12.0](https://github.com/emish89/smile2emoji/compare/v3.11.0...v3.12.0) (2024-06-02)
+
+### Features :sparkles:
+
+* **eslint:** eslint updated to version 9 with flat config ([c72e477](https://github.com/emish89/smile2emoji/commit/c72e47739670c480eec97cea9c8c08c3a93c66ce))
+
 ## [3.11.0](https://github.com/emish89/smile2emoji/compare/v3.10.0...v3.11.0) (2024-03-02)
 
 
