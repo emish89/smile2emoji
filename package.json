@@ -55,7 +55,7 @@
   },
   "homepage": "https://github.com/emish89/smile2emoji#readme",
   "devDependencies": {
-    "@babel/cli": "7.24.8",
+    "@babel/cli": "7.25.6",
     "@babel/eslint-parser": "7.25.1",
     "@babel/preset-env": "7.25.4",
     "@babel/preset-typescript": "7.24.7",
