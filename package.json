@@ -60,7 +60,7 @@
     "@babel/preset-env": "7.25.4",
     "@babel/preset-typescript": "7.24.7",
     "@babel/register": "7.24.6",
-    "@eslint/js": "^9.9.0",
+    "@eslint/js": "^9.10.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "13.0.0",
     "@semantic-release/git": "10.0.1",
@@ -74,9 +74,9 @@
     "chai": "5.1.1",
     "conventional-changelog-conventionalcommits": "8.0.0",
     "cross-env": "7.0.3",
-    "eslint": "9.9.1",
+    "eslint": "9.10.0",
     "eslint-config-airbnb": "19.0.4",
-    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-import": "2.30.0",
     "eslint-plugin-jsx-a11y": "6.10.0",
     "globals": "^15.9.0",
     "mocha": "10.7.3",
@@ -85,13 +85,16 @@
     "rimraf": "6.0.1",
     "ts-node": "^10.9.2",
     "typescript": "5.5.4",
-    "typescript-eslint": "^8.1.0"
+    "typescript-eslint": "^8.4.0"
   },
   "overrides": {
     "@typescript-eslint/eslint-plugin": {
       "eslint": "$eslint"
     },
     "eslint-config-airbnb": {
+      "eslint": "$eslint"
+    },
+    "eslint-plugin-import": {
       "eslint": "$eslint"
     },
     "eslint-plugin-jsx-a11y": {
