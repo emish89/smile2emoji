@@ -21,7 +21,7 @@ Happy usage =)
 
 # Installation
 
-```
+```shell
 npm i smile2emoji
 ```
 
@@ -36,7 +36,7 @@ Objects exported by the package:
 **checkText(text: string): string**
 Function to check if in the string parameter there is some emoji and in case convert it. 
 Example:
-```
+```js
 import { checkText } from 'smile2emoji'
 
 ...
@@ -53,7 +53,7 @@ console.log(text) //prints 'i like bananas 😊'
 
 **checkTextWithAutoSuggestions(text: string): string**
 Same as before but with autosuggestion, so if there is only one emoji key in the map starting with the string, it use it.
-```
+```js
 import { checkTextWithAutoSuggestions } from 'smile2emoji'
 
 ...
@@ -70,7 +70,7 @@ console.log(text) //prints 'i like bananas 🎾'
 
 **checkTextWithAutoSuggestionsAndUnicode(text: string): string**
 Same function but it use the map with unicode char instead of emoji,  same results:
-```
+```js
 import { checkTextWithAutoSuggestionsAndUnicode } from 'smile2emoji'
 
 ...
@@ -88,7 +88,7 @@ console.log(text) //prints 'i like bananas 🎾'
 **fromUnicodeToEmoji(text: string): string**
 Used by the function above, it convert an unicode string to emoji. 
 Example usage:
-```
+```js
 import { fromUnicodeToEmoji } from 'smile2emoji'
 
 const text = fromUnicodeToEmoji('2615');
@@ -108,7 +108,7 @@ In this map is exported a pair of key-value  string -emoji , like ':)' -> 😊
 In this map is exported a pair of key-value  string -unicode of the emoji , like ': coffee:' -> '2615'
 
 Example usage: 
-```
+```js
 import { emojiMap } from 'smile2emoji'
 
 ...
