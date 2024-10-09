@@ -1,3 +1,9 @@
+## [3.15.1](https://github.com/emish89/smile2emoji/compare/v3.15.0...v3.15.1) (2024-10-09)
+
+### Documentation :memo:
+
+* **readme:** updated readme with syntax highlighting ([f24879b](https://github.com/emish89/smile2emoji/commit/f24879b8e9b6e2f81828d7451468d1e46544b360))
+
 ## [3.15.0](https://github.com/emish89/smile2emoji/compare/v3.14.0...v3.15.0) (2024-10-09)
 
 ### Features :sparkles:
