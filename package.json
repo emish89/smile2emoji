@@ -55,18 +55,18 @@
   },
   "homepage": "https://github.com/emish89/smile2emoji#readme",
   "devDependencies": {
-    "@babel/cli": "7.25.9",
+    "@babel/cli": "7.26.4",
     "@babel/eslint-parser": "7.25.9",
     "@babel/preset-env": "7.26.0",
     "@babel/preset-typescript": "7.26.0",
     "@babel/register": "7.25.9",
-    "@eslint/js": "^9.15.0",
+    "@eslint/js": "^9.16.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "13.0.0",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "11.0.1",
     "@semantic-release/npm": "12.0.1",
-    "@types/mocha": "^10.0.9",
+    "@types/mocha": "^10.0.10",
     "@typescript-eslint/eslint-plugin": "8.17.0",
     "@typescript-eslint/parser": "8.17.0",
     "babel-plugin-add-module-exports": "1.0.4",
@@ -78,14 +78,14 @@
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
-    "globals": "^15.12.0",
+    "globals": "^15.13.0",
     "mocha": "11.0.1",
     "nyc": "17.1.0",
     "prettier": "3.4.2",
     "rimraf": "6.0.1",
     "ts-node": "^10.9.2",
     "typescript": "5.7.2",
-    "typescript-eslint": "^8.14.0"
+    "typescript-eslint": "^8.17.0"
   },
   "overrides": {
     "@typescript-eslint/eslint-plugin": {
