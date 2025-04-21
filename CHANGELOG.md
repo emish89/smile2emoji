@@ -1,3 +1,9 @@
+## [3.17.2](https://github.com/emish89/smile2emoji/compare/v3.17.1...v3.17.2) (2025-04-21)
+
+### Bug Fixes :bug:
+
+* **deps:** dependency update release ([b893421](https://github.com/emish89/smile2emoji/commit/b893421f82461c8d93397b912ee430bb4e3b1ea7))
+
 ## [3.17.1](https://github.com/emish89/smile2emoji/compare/v3.17.0...v3.17.1) (2025-02-15)
 
 ### Bug Fixes :bug:
