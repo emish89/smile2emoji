@@ -1,3 +1,9 @@
+## [3.18.1](https://github.com/emish89/smile2emoji/compare/v3.18.0...v3.18.1) (2025-11-11)
+
+### Bug Fixes :bug:
+
+* **deps:** package updated and release triggered ([d6de7e9](https://github.com/emish89/smile2emoji/commit/d6de7e9808f45e68bd30d006423a4e3b7d06de5b))
+
 ## [3.18.0](https://github.com/emish89/smile2emoji/compare/v3.17.3...v3.18.0) (2025-10-07)
 
 ### Features :sparkles:
