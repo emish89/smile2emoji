@@ -1,3 +1,9 @@
+## [3.19.0](https://github.com/emish89/smile2emoji/compare/v3.18.1...v3.19.0) (2025-12-17)
+
+### Features :sparkles:
+
+* **deps:** updated dependencies + test new release ([8c30476](https://github.com/emish89/smile2emoji/commit/8c30476ba200dc2773bf7508fa0d033d95f4b9f4))
+
 ## [3.18.1](https://github.com/emish89/smile2emoji/compare/v3.18.0...v3.18.1) (2025-11-11)
 
 ### Bug Fixes :bug:
