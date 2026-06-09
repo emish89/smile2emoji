@@ -1,3 +1,9 @@
+## [3.20.1](https://github.com/emish89/smile2emoji/compare/v3.20.0...v3.20.1) (2026-06-09)
+
+### Bug Fixes :bug:
+
+* **tsconfig:** fixed tsconfig for new typescript version ([6d30eb8](https://github.com/emish89/smile2emoji/commit/6d30eb8c56e88f79a9df6e6c6df3f38865f72023))
+
 ## [3.20.0](https://github.com/emish89/smile2emoji/compare/v3.19.0...v3.20.0) (2026-01-22)
 
 ### Features :sparkles:
