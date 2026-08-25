@@ -1,3 +1,5 @@
+## [3.20.2](https://github.com/emish89/smile2emoji/compare/v3.20.1...v3.20.2) (2026-08-25)
+
 ## [3.20.1](https://github.com/emish89/smile2emoji/compare/v3.20.0...v3.20.1) (2026-06-09)
 
 ### Bug Fixes :bug:
