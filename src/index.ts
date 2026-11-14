@@ -2147,12 +2147,14 @@ export const checkTextWithAutoSuggestions = (text: string): string => {
 
 /**
  *
- * Function to convert a unicode string to an emoji
+ * Function to convert a unicode string to an emoji.
+ * Multi code point sequences (keycaps, ZWJ sequences) are hyphen separated, e.g. '0031-20e3'.
  *
  * @param text
  * @returns string emoji
  */
-export const fromUnicodeToEmoji = (text: string): string => String.fromCodePoint(parseInt(text, 16));
+export const fromUnicodeToEmoji = (text: string): string =>
+  String.fromCodePoint(...text.split('-').map((codePoint) => parseInt(codePoint, 16)));
 
 /**
  *
