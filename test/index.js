@@ -60,6 +60,19 @@ describe('test package functions', () => {
     assert(fromUnicodeToEmoji('1f47f') === expectedVal, 'invalid value :(');
   });
 
+  it('should test fromUnicodeToEmoji with multi code point sequences', () => {
+    assert(fromUnicodeToEmoji('0031-20e3') === '\u0031\u20e3', 'invalid keycap value :(');
+    assert(
+      fromUnicodeToEmoji('1f469-200d-2764-fe0f-200d-1f469') === '👩‍❤️‍👩',
+      'invalid ZWJ sequence value :(',
+    );
+  });
+
+  it('should test checkTextWithAutoSuggestionsAndUnicode with multi code point sequences', () => {
+    assert(checkTextWithAutoSuggestionsAndUnicode(':one:') === '\u0031\u20e3', 'invalid keycap value :(');
+    assert(checkTextWithAutoSuggestionsAndUnicode(':woman-heart-woman:') === '👩‍❤️‍👩', 'invalid ZWJ value :(');
+  });
+
   it('should test checkTextWithAutoSuggestionsAndUnicode and avoid reserved keyword', () => {
     const expectedVal = 'constructor';
     assert(checkTextWithAutoSuggestionsAndUnicode('constructor') === expectedVal, 'invalid value :(');
