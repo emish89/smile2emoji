@@ -1,5 +1,12 @@
 {
   "extends": [
     "config:base"
+  ],
+  "packageRules": [
+    {
+      "description": "conventional-changelog-conventionalcommits@10 needs conventional-changelog-writer@9, but @semantic-release/release-notes-generator@14 ships writer@8. Remove once release-notes-generator@15 is stable.",
+      "matchPackageNames": ["conventional-changelog-conventionalcommits"],
+      "allowedVersions": "<10"
+    }
   ]
 }
