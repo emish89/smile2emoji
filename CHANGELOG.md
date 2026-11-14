@@ -1,3 +1,10 @@
+## [3.20.3](https://github.com/emish89/smile2emoji/compare/v3.20.2...v3.20.3) (2026-11-14)
+
+### Bug Fixes :bug:
+
+* convert every code point in hyphen-separated unicode sequences ([bcdf0af](https://github.com/emish89/smile2emoji/commit/bcdf0af8a33800e31b60029b268b2792e2cfe82a)), closes [#748](https://github.com/emish89/smile2emoji/issues/748)
+* **deps:** package updated for release ([ff24899](https://github.com/emish89/smile2emoji/commit/ff24899416c6606e470d3b03956711794d5ec45d))
+
 ## [3.20.2](https://github.com/emish89/smile2emoji/compare/v3.20.1...v3.20.2) (2026-08-25)
 
 ## [3.20.1](https://github.com/emish89/smile2emoji/compare/v3.20.0...v3.20.1) (2026-06-09)
